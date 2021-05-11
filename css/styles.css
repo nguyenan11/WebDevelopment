@@ -1,19 +1,23 @@
 /***************************Tag selectors***************************/
-
 body {
     background-color: #cac9eb;
+    margin: 0; /* same as 0 0 0 0 */
+}
+
+div {
+    background-color: #eabf9f;
 }
 
 hr {
     /* Best practice: put everything in alphabetical order */
-    border-color: violet;            
+    border-color: gray;            
     border-style: dotted none none;
     border-width: 5px;
-    width: 50%;
 }
 
 h1 {
     color: blueviolet;
+    margin-top: 0;
 }
 
 h3 {
@@ -36,5 +40,5 @@ can have multiple classes but only 1 ID */
 /***************************ID selectors***************************/
 #profilePic {
     border-radius: 100%;
-    margin-right: 50px;
+    margin: 25px;
 }
