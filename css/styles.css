@@ -20,7 +20,21 @@ h3 {
     color: blueviolet;
 }
 
+img:hover {
+    background-color: skyblue;
+}
+
 /***************************Class selectors***************************/
 .logo {
-    align-items: center;
+    width: 100px;
+    margin-left: 50px;
+}
+
+/* Class selector and ID selector have higher priority than tag selector
+can have multiple classes but only 1 ID */
+
+/***************************ID selectors***************************/
+#profilePic {
+    border-radius: 100%;
+    margin-right: 50px;
 }
