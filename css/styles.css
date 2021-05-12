@@ -1,11 +1,7 @@
 /***************************Tag selectors***************************/
 body {
-    background-color: #cac9eb;
-    margin: 0; /* same as 0 0 0 0 */
-}
-
-div {
-    background-color: #eabf9f;
+    background-color: #e1e5ea;
+    /*text-align: center;*/
 }
 
 hr {
@@ -16,28 +12,61 @@ hr {
 }
 
 h1 {
-    color: blueviolet;
+    color: #a7bbc7;
     margin-top: 0;
+    font-family: monospace;
+    font-size: 30px;
 }
 
 h3 {
-    color: blueviolet;
+    color: #a7bbc7;
 }
 
-img:hover {
-    background-color: skyblue;
+p {
+    font-family: cursive;
 }
 
 /***************************Class selectors***************************/
+
+.firstLayer {
+    /*background-color: #eabf9f;*/
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
 .logo {
-    width: 100px;
-    margin-left: 50px;
+    width: 80px;
+    /* display: inline-block; would work the same */
+    position: relative;
+    top: 30px;
+}
+
+.topCloud {
+    position: absolute;
+    right: 400px;
+    top: 30px;
+}
+
+.topCloud:hover {
+    background-color: sandybrown;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+    bottom: 450px;
+}
+
+.ocean {
+    margin-top: 200px;
 }
 
 /* Class selector and ID selector have higher priority than tag selector
 can have multiple classes but only 1 ID */
 
 /***************************ID selectors***************************/
+
 #profilePic {
     border-radius: 100%;
     margin: 25px;
