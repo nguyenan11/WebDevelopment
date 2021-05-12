@@ -19,7 +19,7 @@ h1 {
 }
 
 h3 {
-    color: #a7bbc7;
+    color: #94d0cc;
 }
 
 p {
@@ -35,6 +35,10 @@ p {
     padding-top: 100px;
 }
 
+.lastLayer {
+    text-align: center;
+}
+
 .logo {
     width: 70px;
     /* display: inline-block; would work the same */
@@ -47,9 +51,13 @@ p {
     padding-top: 300px;
 }
 
+.skillIcon {
+    width: 200px;
+}
+
 .topCloud {
     position: absolute;
-    right: 400px;
+    right: 25%;
     top: 30px;
 }
 
@@ -59,7 +67,7 @@ p {
 
 .bottomCloud {
     position: absolute;
-    left: 300px;
+    left: 25%;
     bottom: 450px;
 }
 
@@ -75,8 +83,4 @@ can have multiple classes but only 1 ID */
 #profilePic {
     border-radius: 100%;
     margin: 25px;
-}
-
-#codingGif {
-    width: 200px;
 }
