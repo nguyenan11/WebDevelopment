@@ -12,7 +12,6 @@
     <body>
         <div class="firstLayer">
             <img class="topCloud" src="images/cloud.png" alt="cloud">
-            <img class="bottomCloud" src="images/cloud.png" alt="cloud">
             <img class="logo" src="images/laptop.png" alt="Macbook">
             <img id="profilePic" src="images/profile.jpeg" alt="My picture">
             <img class="logo" src="images/neu.webp" alt="NEU">
@@ -20,32 +19,33 @@
             <h2>MSCS Student at <em>Northeastern University</em></h2> 
             <!--Could also use span then here-->
             <h2>You got me at "Hello World"</h2>
+            <img class="bottomCloud" src="images/cloud.png" alt="cloud">
             <img class="ocean" src="images/ocean.png" alt="ocean">
         </div>
         <div class="middleLayer">
             <div class="profile">
-              <img class="skillIcon" src="https://media.giphy.com/media/vZKPAfk0Bj0l8naZVx/giphy.gif" alt="What's coding">
+              <img id="codingGif" src="https://media.giphy.com/media/vZKPAfk0Bj0l8naZVx/giphy.gif" alt="What's coding">
               <h2>Hello</h2>
               <p>I'm starting everything from scratch. Hope you enjoy my journey!</p>
             </div>
             <hr>
             <div class="skills">
               <h2>My Skills</h2>
-              <div class="skill-row">
-                <img class="skillIcon" src="images/python.png" alt="python">
+              <div class="skillRow">
+                <img class="skillIconLeft" src="images/python.png" alt="python">
                 <h3>Python</h3>
                 <p>💡💡💡💡💡</p>
                 <p>Why does <em>Python 🐍 </em> live on land?</p>
                 <p>Because it's above <em>C level</em></p>
               </div>
-              <div class="skill-row">
-                <img class="skillIcon" src="images/java.png" alt="java">
+              <div class="skillRow">
+                <img class="skillIconRight" src="images/java.png" alt="java">
                 <h3>Java</h3>
                 <p>💡💡💡💡💡</p>
                 <p>You are the SEMICOLON to my STATEMENTS;</p>
               </div>
-              <div class="skill-row">
-                <img class="skillIcon" src="images/command-line.png" alt="C">
+              <div class="skillRow">
+                <img class="skillIconLeft" src="images/command-line.png" alt="C">
                 <h3>C</h3>
                 <p>💡💡💡</p>
                 <p>I fear no man but "Segmentation fault"</p>
@@ -55,8 +55,8 @@
             <div class="contact-me">
               <h2>Get In Touch</h2>
               <h3>I play League of Legends on my free time</h3>
-              <p>I'm more than happy to chat with you about how I got here; my journey, healthcare, CS, the industry, or anything!</p>
-              <a href="contact.html">Contact Me</a>
+              <p id="contactMsg">I'm more than happy to chat with you about how I got here; my journey, healthcare, CS, the industry, or anything!</p>
+              <a class="button" href="contact.html">Contact Me</a>
             </div>
           </div>
           
@@ -64,5 +64,5 @@
           <div class="lastLayer">
             <a class="footer-link" href="https://www.linkedin.com/in/an-nguyen11/">LinkedIn</a>
             <a class="footer-link" href="https://github.com/nguyenan11">Github</a>
-            <p>© 2021 An Nguyen</p>
+            <p id="copyright">© 2021 An Nguyen</p>
           </div>
