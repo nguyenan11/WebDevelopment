@@ -15,11 +15,16 @@ h1 {
     color: #94d0cc;
     margin-top: 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 5.625rem; /* 100% =16px = 1em */
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Itim', cursive;
 }
 
 h3 {
-    color: #94d0cc;
+    color: #11999E;
 }
 
 p {
@@ -68,11 +73,11 @@ p {
 .bottomCloud {
     position: absolute;
     left: 25%;
-    bottom: 450px;
+    bottom: 350px;
 }
 
 .ocean {
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 /* Class selector and ID selector have higher priority than tag selector
