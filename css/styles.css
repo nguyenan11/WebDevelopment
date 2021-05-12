@@ -12,10 +12,10 @@ hr {
 }
 
 h1 {
-    color: #a7bbc7;
+    color: #94d0cc;
     margin-top: 0;
-    font-family: monospace;
-    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
 }
 
 p {
-    font-family: cursive;
+    font-family: 'Itim', cursive;
 }
 
 /***************************Class selectors***************************/
@@ -36,10 +36,15 @@ p {
 }
 
 .logo {
-    width: 80px;
+    width: 70px;
     /* display: inline-block; would work the same */
     position: relative;
-    top: 30px;
+    bottom: 90px;
+}
+
+.middleLayer {
+    text-align: center;
+    padding-top: 300px;
 }
 
 .topCloud {
@@ -70,4 +75,8 @@ can have multiple classes but only 1 ID */
 #profilePic {
     border-radius: 100%;
     margin: 25px;
+}
+
+#codingGif {
+    width: 200px;
 }
