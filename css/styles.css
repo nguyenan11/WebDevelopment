@@ -51,9 +51,10 @@ p {
 /***************************Class selectors***************************/
 
 .bottomCloud {
+    width: 8%;
     position: absolute;
     left: 25%;
-    bottom: 350px;
+    bottom: 25rem;
 }
 
 .button {
@@ -98,9 +99,7 @@ p {
  }
 
 .firstLayer {
-    /*background-color: #eabf9f;*/
-    position: relative;
-    padding-top: 100px;
+    padding: 100px 0 0 0;
 }
 
 .lastLayer {
@@ -120,7 +119,7 @@ p {
 }
 
 .ocean {
-    padding-top: 200px;
+    padding: 12.5rem 0 0 0;
 }
 
 .skillRow {
@@ -143,9 +142,10 @@ p {
 }
 
 .topCloud {
+    width: 8%;
     position: absolute;
-    right: 25%;
-    top: 30px;
+    right: 25rem;
+    top: 3rem;
 }
 
 /* Class selector and ID selector have higher priority than tag selector
@@ -154,7 +154,7 @@ can have multiple classes but only 1 ID */
 /***************************ID selectors***************************/
 
 #codingGif {
-    padding-top: 20px;
+    padding: 20px 0 0 0;
     width: 15%;
 }
 
