@@ -51,10 +51,10 @@ p {
 /***************************Class selectors***************************/
 
 .bottomCloud {
-    width: 8%;
+    width: 100px;
     position: absolute;
     left: 25%;
-    bottom: 25rem;
+    top: 20rem;
 }
 
 .button {
@@ -118,8 +118,9 @@ p {
     background-color: snow;
 }
 
-.ocean {
-    padding: 12.5rem 0 0 0;
+.seattle {
+    margin: 12.5rem 0 0 0;
+    width: 90%;
 }
 
 .skillRow {
@@ -142,9 +143,9 @@ p {
 }
 
 .topCloud {
-    width: 8%;
+    width: 100px;
     position: absolute;
-    right: 25rem;
+    right: 25%;
     top: 3rem;
 }
 
