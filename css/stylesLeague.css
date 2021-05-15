@@ -18,6 +18,15 @@ h1 {
     font-weight: 900;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+p {
+ color: #8f8f8f;
+}
+
 .custom-button {
     margin: 5% 3% 5% 0;
 }
@@ -45,4 +54,23 @@ h1 {
     width: 60%;
     /**transform: rotate(25deg);*/
     margin: 0 0 0 25%;
+}
+
+/* Feature section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.individual-feature {
+    text-align: center;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
