@@ -18,6 +18,11 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -25,6 +30,10 @@ h3 {
 
 p {
  color: #8f8f8f;
+}
+
+em {
+    font-family: "Ubuntu";
 }
 
 .custom-button {
@@ -73,4 +82,28 @@ p {
 
 .icon:hover {
     color: #ff4c68;
+}
+
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonials-image {
+    width: 25%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
