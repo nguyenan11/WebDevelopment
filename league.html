@@ -5,9 +5,12 @@
   <meta charset="utf-8">
   <title>Yasuo's training guide</title>
   <link rel="icon" href="images2/favicon.ico">
-  <script src="jquery/jquery.js"></script>
-  <script type="text/javascript" src='js/bootstrap.min.js'></script>
 
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  
+  
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/465fdf736d.js" crossorigin="anonymous"></script>
   
@@ -15,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   
   <!-- CSS Style sheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="css/stylesLeague.css">
 </head>
 
@@ -96,22 +99,43 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-    <h2>This service is so good even I have to learn from them</h2>
-    <img class='testimonials-image' src="images2/yasuo-sq.jpeg" alt="faker-thump-up">
-    <em>Faker, SKT T1</em>
-
-
+    
+    <div id="testimonials-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>This service is so good even I have to learn from them</h2>
+          <img class='testimonials-image' src="images2/faker.jpeg" alt="faker-thump-up">
+          <em>Faker, SKT T1</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Game là dễ!</h2>
+          <img class='testimonials-image' src="images2/thaygiaoba.jpeg" alt="thaygiaoba">
+          <em>Teacher Three, SBTC</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I don't need this!!!</h2>
+          <img class='testimonials-image' src="images2/tyler1.jpeg" alt="tyler1">
+          <em>Tyler1, "definitely one of our customers"</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img class="press-logo" src="images2/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images2/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images2/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images2/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images2/riot-logo.png" alt="tc-logo">
+    <img class="press-logo" src="images2/prime-gaming.png" alt="tnw-logo">
+    <img class="press-logo" src="images2/corsair.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images2/gamestop.png" alt="mashable-logo">
 
   </section>
 

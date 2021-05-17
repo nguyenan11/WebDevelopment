@@ -33,7 +33,7 @@ p {
 }
 
 em {
-    font-family: "Ubuntu";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .custom-button {
@@ -86,15 +86,19 @@ em {
 
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: white;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 .testimonials-image {
     width: 25%;
     margin: 20px;
+    border-radius: 100%;
 }
 
 #press {
