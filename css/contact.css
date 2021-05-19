@@ -1,0 +1,27 @@
+/***************************contact.html***************************/
+.jumbotron {
+    background: #eeeeee;
+    color: #FFF;
+    border-radius: 0px;
+}
+.jumbotron-sm { 
+    padding: 24px;
+}
+    
+.jumbotron small {
+    color: #FFF;
+}
+
+.container {
+    padding: 24px;
+}
+
+.h1 {
+    color: black;
+}
+
+.h1 small {
+    font-size: 24px;
+    padding: 0 20px;
+    color: darkgray;
+}

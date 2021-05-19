@@ -4,22 +4,89 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact An Nguyen</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/contact.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  
+
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/465fdf736d.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
-        <h1>My Infomation</h1>
-        <p>Name: An Nguyen</p>
-        <p>Phone number: 206 - 446- 7238</p>
-        <p>Email: nguyen.an.1196@gmail.com</p>
-        <form action="mailto:nguyen.an.1196@gmail.com" method="post" enctype="text/plain">
-            <label>Your Name:</label>
-            <input type="text" name="Your Name" value=""><br>
-            <label>Your Email:</label>
-            <input type="email" name="Your Email" value=""><br>
-            <label>Your Message:</label><br>
-            <textarea name="Your Message" rows="10" cols="30"></textarea>
-            <input type="submit">
-        </form>
+        <div class="jumbotron jumbotron-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <h1 class="h1">
+                            Contact Me <small>Feel free to send me a message</small></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 shadow-none p-3 mb-5 bg-light rounded">
+                    <div class="well well-sm">
+                        <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email Address</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Subject</label>
+                                    <select id="subject" name="subject" class="form-control" required="required">
+                                        <option value="na" selected="">Choose Topic:</option>
+                                        <option value="cs">Computer Science</option>
+                                        <option value="healthcare">Healthcare</option>
+                                        <option value="coffee">Grabbing coffee</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Message</label>
+                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Send Message</button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                    <legend><i class="fas fa-graduation-cap"></i> My school information</legend>
+                    <address>
+                        <strong>Northeastern University, Seattle</strong><br>
+                        401 Terry Ave N #103<br>
+                        Seattle, WA 98109<br>
+                        
+                    </address>
+                    <address>
+                        <strong>An Nguyen</strong><br>
+                        <a href="mailto:#">nguyen.an1@northeastern.edu</a><br>
+                        <i class="fas fa-phone-square"></i> (206) 446-7238
+                    </address>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
