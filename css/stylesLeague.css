@@ -62,7 +62,6 @@ em {
 .title-image {
     width: 60%;
     /**transform: rotate(25deg);*/
-    margin: 0 30% 0 25%;
 }
 
 /* Feature section */
@@ -117,4 +116,33 @@ em {
 /* Pricing */
 #pricing {
     padding: 100px;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+#cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.fab {
+    margin: 3% 3% 0 0;
+}
+
+#footer {
+    text-align: center;
+    padding: 2% 15%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
 }
