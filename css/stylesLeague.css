@@ -1,31 +1,11 @@
 body {
     font-family: 'Montserrat';  
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-}
-
-.container-fluid {
-    padding: 3% 15%;
-}
-
-h1 {  
-    color: white;
-    font-family: 'Montserrat-Black';  
-    font-size: 3rem;  
-    line-height: 1.5;  
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: bolder;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -36,11 +16,39 @@ em {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Headings */
+
+.big-heading {
+    color: #fff;
+    font-family: 'Montserrat-Bold';
+    font-weight: 900;  
+    font-size: 3rem;  
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+    colof: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
 .custom-button {
     margin: 5% 3% 5% 0;
 }
 
-/** Nav bar **/
+
+/* Nav bar */
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -64,6 +72,7 @@ em {
     /**transform: rotate(25deg);*/
 }
 
+
 /* Feature section */
 
 #features {
@@ -71,8 +80,9 @@ em {
     background-color: #fff;
 }
 
-.individual-feature {
-    text-align: center;
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .icon {
@@ -85,15 +95,16 @@ em {
 }
 
 
+/* Testimonial section */
+
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-    height: 600px;
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonials-image {
@@ -102,8 +113,12 @@ em {
     border-radius: 100%;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+    height: 600px;
+}
+
 #press {
-    text-align: center;
     background-color: #ef8172;
     padding-bottom: 3%;
 }
@@ -113,13 +128,22 @@ em {
     margin: 20px 20px 50px;
 }
 
+
 /* Pricing */
+
 #pricing {
     padding: 100px;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* CTA section */
+
 #cta {
-    text-align: center;
     background-color: #ff4c68;
     color: #fff;
     padding: 7% 15%;
@@ -135,9 +159,9 @@ em {
 }
 
 #footer {
-    text-align: center;
     padding: 2% 15%;
 }
+
 
 @media (max-width: 1028px) {
 
