@@ -1,4 +1,4 @@
-/***************************Tag selectors***************************/
+/************************** Tag selectors **************************/
 a {
     color: #11999E;
     font-family: 'Itim', cursive;
@@ -46,7 +46,7 @@ p {
     line-height: 2;
 }
 
-/***************************Class selectors***************************/
+/************************** Class selectors **************************/
 
 .bottomCloud {
     width: 100px;
@@ -152,7 +152,7 @@ p {
 /* Class selector and ID selector have higher priority than tag selector
 can have multiple classes but only 1 ID */
 
-/***************************ID selectors***************************/
+/************************** ID selectors **************************/
 
 #codingGif {
     padding: 20px 0 0 0;

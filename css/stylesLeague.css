@@ -32,15 +32,14 @@ em {
     line-height: 1.5;
 }
 
-#title {
-    background-color: #ff4c68;
-    text-align: left;
-    colof: #fff;
-}
+/* Container */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
+
+
+/* Button */
 
 .custom-button {
     margin: 5% 3% 5% 0;
@@ -65,6 +64,19 @@ em {
 
 .nav-link {
     font-family: "Montserrat-Light";
+}
+
+
+/* Title section */
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+    color: #fff;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 .title-image {
