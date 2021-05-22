@@ -1,4 +1,5 @@
 /************************** Tag selectors **************************/
+
 a {
     color: #11999E;
     font-family: 'Itim', cursive;
@@ -48,12 +49,23 @@ p {
 
 /************************** Class selectors **************************/
 
+/* Cloud */
+
 .bottomCloud {
     width: 100px;
     position: absolute;
     left: 25%;
     top: 20rem;
 }
+
+.topCloud {
+    width: 100px;
+    position: absolute;
+    right: 25%;
+    top: 3rem;
+}
+
+/* Button */
 
 .button {
     background: #3D94F6;
@@ -96,6 +108,8 @@ p {
     text-decoration: none;
  }
 
+/* Layer */
+
 .firstLayer {
     padding: 100px 0 0 0;
     background-color: #e1e5ea;
@@ -107,6 +121,12 @@ p {
     padding: 50px 0 20px;
 }
 
+.middleLayer {
+    background-color: snow;
+}
+
+/* images and logo */
+
 .logo {
     width: 70px;
     /* display: inline-block; would work the same */
@@ -114,14 +134,12 @@ p {
     bottom: 90px;
 }
 
-.middleLayer {
-    background-color: snow;
-}
-
 .seattle {
     margin: 12.5rem 0 0 0;
     width: 90%;
 }
+
+/* Skill section */
 
 .skillRow {
     width: 50%;
@@ -140,13 +158,6 @@ p {
     width: 25%;
     float: right;
     margin: 0 0 0 30px;
-}
-
-.topCloud {
-    width: 100px;
-    position: absolute;
-    right: 25%;
-    top: 3rem;
 }
 
 /* Class selector and ID selector have higher priority than tag selector
