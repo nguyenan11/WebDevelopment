@@ -6,6 +6,7 @@
 document.querySelector("button").addEventListener("click", rollDice);
 
 /**
+ * Callback function.
  * Roll 2 dices into new number, result will be updated correspondingly.
  */
 function rollDice() {

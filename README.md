@@ -1,6 +1,6 @@
 # Personal Website
 
-Click on this [link](https://nguyenan11.github.io/cv/)
+Click on this [link](https://nguyenan11.github.io/cv/personalWeb/)
 
 Though it said CV, the contents uploaded here are not particularly meaningful,
 professional (at least not yet). It means to show my progress by starting 
