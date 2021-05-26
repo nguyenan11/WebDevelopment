@@ -1,17 +1,23 @@
 .container {
   width: 70%;
   margin: auto;
-  text-align: center;
 }
 
 .dice {
-  text-align: center;
   display: inline-block;
+
+}
+
+.footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
 
 }
 
 body {
   background-color: #393E46;
+  text-align: center;
 }
 
 h1 {
@@ -30,12 +36,4 @@ p {
 
 img {
   width: 80%;
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
 }

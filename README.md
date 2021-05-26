@@ -11,7 +11,5 @@ before diving in depth into JavaScript.
 
 Simple 2 players [game](https://nguyenan11.github.io/cv/rollingDiceGame/dice.html)
 
-There are 2 dices, 1 for each player. Upon refresh, dices will be rolled into
-random results, winner or draw will be determined.
-
-
+There are 2 dices, 1 for each player. Upon hitting the roll button, dices will 
+be rolled into random results, winner or draw will be determined.
