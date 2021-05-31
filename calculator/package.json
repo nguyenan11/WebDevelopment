@@ -1,8 +1,8 @@
 {
-  "name": "express-server",
+  "name": "calculator",
   "version": "1.0.0",
-  "description": "This is the Express server",
-  "main": "server.js",
+  "description": "Simple calculator website",
+  "main": "calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

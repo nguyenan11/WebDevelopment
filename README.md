@@ -1,6 +1,6 @@
 # Personal Website
 
-Click on this [link](https://nguyenan11.github.io/cv/personalWeb/)
+Click on this [link](https://nguyenan11.github.io/WebDevelopment/personalWeb/)
 
 The contents uploaded here are not particularly meaningful, professional 
 (at least not yet). It means to show my progress by starting everything from 
@@ -9,14 +9,11 @@ depth into JavaScript.
 
 # Dice game
 
-Simple 2 players [game](https://nguyenan11.github.io/cv/rollingDiceGame/dice.html)
+Simple 2 players [game](https://nguyenan11.github.io/WebDevelopment/rollingDiceGame/dice.html)
 
 There are 2 dices, 1 for each player. Upon hitting the roll button, dices will 
 be rolled into random results, winner or draw will be determined.
 
 # Simon game
 
-Memorizing [game](https://nguyenan11.github.io/cv/simonGame/)
-
-
-
+Memorizing [game](https://nguyenan11.github.io/WebDevelopment/simonGame/)
