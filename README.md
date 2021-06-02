@@ -16,4 +16,7 @@ be rolled into random results, winner or draw will be determined.
 
 # Simon game
 
-Memorizing [game](https://nguyenan11.github.io/WebDevelopment/simonGame/)
+The famous Simon [game](https://nguyenan11.github.io/WebDevelopment/simonGame/)
+
+The platform creates a series of tones and lights and requires a user to repeat 
+the sequence.
