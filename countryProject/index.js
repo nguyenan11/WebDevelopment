@@ -7,20 +7,31 @@ const app = express();
 
 app.get("/", function(req, res) {
 
-    const url = "https://restcountries.eu/rest/v2/all?fields=name;capital;";
+    const url = "https://restcountries.eu/rest/v2/name/viet";
     https.get(url, function(response) {
         console.log(response.statusCode);
 
-        response.on("data", function(data) {
-            const countriesData = JSON.parse(data)
-            for (country in countriesData) {
-                console.log(country['name']);
-            }
+        var data;
+        response.on("data", function(chunk) {
+        if (!data) {
+            data = chunk;
+        } else {
+            data += chunk;
+        }
         });
-    });
+
+        response.on("end", function() {
+            const vietnam = JSON.parse(data);
+            // console.log(vietnam);
+            const capital = vietnam[0].capital;
+            const currency = vietnam[0].currencies[0].code;
+            console.log("Capital of Vietnam is " + capital + ", and their \
+currency is " + currency);
+        });
 
     res.send("Up and running");
 
+    });
 });
 
 
