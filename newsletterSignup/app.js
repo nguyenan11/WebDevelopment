@@ -11,10 +11,26 @@ app.get("/", function(req, res) {
 });
 
 app.post("/", function(req, res) {
-    var firstName = req.body.firstName;
-    var lastName = req.body.lastName;
-    var email = req.body.email;
-    console.log(firstName, lastName, email);
+    const firstName = req.body.firstName;
+    const lastName = req.body.lastName;
+    const email = req.body.email;
+    
+    const data = {
+        members: [
+            {
+                email_address: email,
+                status: "subscribed",
+                merge_field: {
+                    FNAME: firstName,
+                    LNAME: lastName
+                }
+            }
+        ]
+    };
+
+    const jsonData = JSON.stringify(data);
+    
+    //console.log(firstName, lastName, email);
 })
 
 app.listen(3000, function() {
