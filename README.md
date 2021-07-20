@@ -28,7 +28,9 @@ The famous Simon [game](https://nguyenan11.github.io/WebDevelopment/simonGame/)
 The platform creates a series of tones and lights and requires a user to repeat 
 the sequence.
 
-## Practice projects
+## Small practice projects
+> not available to be clicked on (unless download and test it by yourself) because server needs to be started; small projects so  they don't get pushed onto Heroku
+
 
 * Plain JavaScript:
   * calculator
