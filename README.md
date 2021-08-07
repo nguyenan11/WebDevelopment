@@ -41,3 +41,6 @@ the sequence.
 
 * EJS:
   * todo-list
+
+* Authentication and security
+  * secrets-submission
