@@ -12,6 +12,11 @@ The contents uploaded here are not particularly meaningful, professional
 scratch and also helps me practice with HTML/ CSS/ Bootstrap before diving in 
 depth into JavaScript.
 
+## Expense tracking application
+
+Click [here](https://payplicity-ui.herokuapp.com/) to view this full project on Heroku.
+This is located in a private repo, please message me if you have any question! 
+
 ## Rolling dices game
 * Plain JavaScript
 
